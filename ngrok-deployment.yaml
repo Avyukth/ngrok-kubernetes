@@ -16,6 +16,6 @@ spec:
       - name: ngrok
         image: wernight/ngrok
         command: ["ngrok"]
-        args: ["http", "nginx-service"]
+        args: ["http", "argocd-server"]
         ports:
         - containerPort: 4040
